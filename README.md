@@ -47,6 +47,9 @@ pip install -r requirements.txt
        
 ### 3. Edit config.yml according to your needs 
 
+### 4.Run the code 
+`python Ascii_art.py` or `python3 Ascii_art.py` on unix or linux based systems . U must have python 3.8+ for it to work which u can check by `python --version`
+
 ```bash
  _   _      _ _         __        __         _     _ 
 | | | | ___| | | ___    \ \      / /__  _ __| | __| |
