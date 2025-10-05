@@ -1,0 +1,53 @@
+# ================================================
+# CONFIGURATION FILE FOR ASCII ART GENERATOR
+# ================================================
+
+# -------------------------------
+# TEXT ASCII SETTINGS
+# -------------------------------
+font: slant                  # PyFiglet font (try: standard, big, block, roman, starwars, doom)
+width: 100                   # Max width of ASCII text in characters
+justify: center              # Alignment: left / center / right
+
+# -------------------------------
+# COLOR SETTINGS (Rich styles)
+# -------------------------------
+text_color: bold green        # Fallback color for ASCII text
+image_color: yellow           # Fallback color for ASCII image
+rule_color: cyan              # Color for divider rules
+background_color: "#1e1e1e"   # Background color (depends on terminal support)
+
+# -------------------------------
+# GRADIENT OPTIONS
+# -------------------------------
+# Available: none, rainbow, fire, ocean, neon (or define your own!)
+text_gradient: rainbow
+image_gradient: fire
+
+gradients:
+  rainbow: ["#ff0000", "#ff7f00", "#ffff00", "#00ff00", "#0000ff", "#4b0082", "#8f00ff"]
+  fire: ["#ff0000", "#ff4500", "#ff8c00", "#ffd700"]
+  ocean: ["#0000ff", "#00ffff", "#1e90ff", "#20b2aa"]
+  neon: ["#ff00ff", "#ff1493", "#9400d3", "#00ffff"]
+
+# You can add your own gradient, for example:
+#   cyberpunk: ["#ff0080", "#ff00ff", "#8000ff", "#00ffff"]
+
+# -------------------------------
+# IMAGE TO ASCII SETTINGS
+# -------------------------------
+image_width: 80               # Width of ASCII image (in characters)
+image_charset: "@#S%?*+;:,. " # Characters used from dark → light
+image_invert: false           # true = invert brightness → character mapping
+
+# -------------------------------
+# OUTPUT SETTINGS
+# -------------------------------
+save_to_file: true            # Save ASCII output to file
+output_file: output.txt       # File name for ASCII text output
+
+# -------------------------------
+# EXTRA FEATURES
+# -------------------------------
+random_font: false            # Pick a random font each run
+show_rules: true              # Show divider rules before/after output
