@@ -51,14 +51,19 @@ pip install -r requirements.txt
 `python Ascii_art.py` or `python3 Ascii_art.py` on unix or linux based systems . U must have python 3.8+ for it to work which u can check by `python --version`
 
 ```bash
- _   _      _ _         __        __         _     _ 
-| | | | ___| | | ___    \ \      / /__  _ __| | __| |
-| |_| |/ _ \ | |/ _ \    \ \ /\ / / _ \| '__| |/ _` |
-|  _  |  __/ | | (_) |    \ V  V / (_) | |  | | (_| |
-|_| |_|\___|_|_|\___( )    \_/\_/ \___/|_|  |_|\__,_|
-                    |/
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                           _       __________    __________  __  _________
+                          | |     / / ____/ /   / ____/ __ \/  |/  / ____/
+                          | | /| / / __/ / /   / /   / / / / /|_/ / __/
+                          | |/ |/ / /___/ /___/ /___/ /_/ / /  / / /___
+                          |__/|__/_____/_____/\____/\____/_/  /_/_____/
+
+
+Image file not found! Skipping image...
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Saved output to output.txt
 ```
-How a text looks like under rainbrow ingredient
+How a text looks like under default config
 
 
        
