@@ -49,20 +49,8 @@ pip install -r requirements.txt
 
 ### 4.Run the code 
 `python Ascii_art.py` or `python3 Ascii_art.py` on unix or linux based systems . U must have python 3.8+ for it to work which u can check by `python --version`
+<img src="https://i.postimg.cc/rp646m9n/Screenshot-2025-10-09-184840.png" alt="YAML Validator Screenshot" width="600">
 
-```bash
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-                           _       __________    __________  __  _________
-                          | |     / / ____/ /   / ____/ __ \/  |/  / ____/
-                          | | /| / / __/ / /   / /   / / / / /|_/ / __/
-                          | |/ |/ / /___/ /___/ /___/ /_/ / /  / / /___
-                          |__/|__/_____/_____/\____/\____/_/  /_/_____/
-
-
-Image file not found! Skipping image...
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-Saved output to output.txt
-```
 How a text looks like under default config
 
 
